@@ -28,7 +28,7 @@
 
 #### RabbitMQ
 
-拆分多个 queue，每个 queue 一个 consumer，就是多一些 queue 而已，确实是麻烦点，这样也会造成吞吐量下降，可以在消费者内部采用多线程的方式取消费。
+拆分多个 queue，每个 queue 一个 consumer，就是多一些 queue 而已，确实是麻烦点，这样也会造成吞吐量下降，可以在消费者内部采用多线程的方式去消费。
 
 ![rabbitmq-order-02](./images/rabbitmq-order-02.png)
 
